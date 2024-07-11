@@ -35,6 +35,16 @@
 * User-Friendly Interface: Simple and intuitive web interface built with Streamlit.
 * Preprocessing: Automatic text preprocessing including removing URLs, mentions, hashtags, special characters, and stop words.
 
+
+**Project Structure**
+ twitter-sentiment-analysis/
+ │
+ ├── app.py                  # Streamlit app script
+ ├── vectorizer.pkl          # Trained CountVectorizer
+ ├── naive_bayes_model.pkl  # Trained Naive Bayes model
+ ├── README.md               # Project README file
+
+
 **Model Training**
 * To train the model and create the pickle files (vectorizer.pkl and multiclass_naive_bayes_model.pkl), follow these steps:
 
