@@ -24,10 +24,23 @@
   * Ensure you have the following files in the project directory:
 
     * vectorizer.pkl
-    * multiclass_naive_bayes_model.pkl
+    * naive_bayes_model.pkl
 * These files are the trained CountVectorizer and Multinomial Naive Bayes model, respectively.
 * Run the Streamlit app using the following command:
     * streamlit run app.py
 
+ 
+**Features**
+* Real-time Sentiment Analysis: Enter a tweet and get instant sentiment classification.
+* User-Friendly Interface: Simple and intuitive web interface built with Streamlit.
+* Preprocessing: Automatic text preprocessing including removing URLs, mentions, hashtags, special characters, and stop words.
+
+**Model Training**
+* To train the model and create the pickle files (vectorizer.pkl and multiclass_naive_bayes_model.pkl), follow these steps:
+
+ * Preprocess the Data: Clean and preprocess the tweet data.
+ * Vectorize the Data: Use CountVectorizer to transform the text data into numerical features.
+ * Train the Model: Train a Multinomial Naive Bayes classifier on the vectorized data.
+ * Save the Model and Vectorizer: Save the trained model and vectorizer using pickle.
 
 
