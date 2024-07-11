@@ -46,11 +46,12 @@
 
 
 **Model Training**
-* To train the model and create the pickle files (vectorizer.pkl and multiclass_naive_bayes_model.pkl), follow these steps:
+* To train the model and create the pickle files (vectorizer.pkl and naive_bayes_model.pkl), follow these steps:
 
  * Preprocess the Data: Clean and preprocess the tweet data.
  * Vectorize the Data: Use CountVectorizer to transform the text data into numerical features.
- * Train the Model: Train a Multinomial Naive Bayes classifier on the vectorized data.
+ * Train the Model: Train Gaussian, Multinomial, Bernoulli Naive Bayes classifier on the vectorized data.
+ * Model Selection: Check the accuracy of all three models, and figure out which one would give the best results (Multinimial in our case).
  * Save the Model and Vectorizer: Save the trained model and vectorizer using pickle.
 
 
