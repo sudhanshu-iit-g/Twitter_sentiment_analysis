@@ -37,12 +37,12 @@
 
 
 **Project Structure**
- twitter-sentiment-analysis/
- │
- ├── app.py                  # Streamlit app script
- ├── vectorizer.pkl          # Trained CountVectorizer
- ├── naive_bayes_model.pkl  # Trained Naive Bayes model
- ├── README.md               # Project README file
+ * twitter-sentiment-analysis/
+  * │
+  * ├── app.py                  # Streamlit app script
+  * ├── vectorizer.pkl          # Trained CountVectorizer
+  * ├── naive_bayes_model.pkl  # Trained Naive Bayes model
+  * ├── README.md               # Project README file
 
 
 **Model Training**
